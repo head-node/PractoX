@@ -11,9 +11,7 @@
   width: 100%;
   -webkit-appearance: button;
 }
-img{
-  display: none;
-}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .searchBar {

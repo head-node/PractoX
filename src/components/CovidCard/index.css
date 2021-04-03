@@ -5,11 +5,13 @@
   .covid {
     display: flex;
     justify-content: space-between;
-    background-color: #28328c;
+    background-color: #28328c; 
+    padding: 50px;
   }
   .covid .card {
     width: 360px;
     height: 449px;
+   
   }
   .covid-small {
     display: none;

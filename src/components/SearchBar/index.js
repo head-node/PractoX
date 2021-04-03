@@ -14,7 +14,7 @@ const SearchBar = () => {
         type="search"
         placeholder="Search Doctors, clinics, hospitals, etc"
       ></input> 
-      <img src="https://www.practostatic.com/subscriptions/images/plus-tag.png" alt="ad"/>
+     
     </div>
   );
 };
