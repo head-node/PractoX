@@ -1,0 +1,17 @@
+.covid {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .covid {
+    display: flex;
+    justify-content: space-between;
+    background-color: #28328c;
+  }
+  .covid .card {
+    width: 360px;
+    height: 449px;
+  }
+  .covid-small {
+    display: none;
+  }
+}
