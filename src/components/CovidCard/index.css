@@ -1,22 +1,22 @@
 .covid {
   display: none;
 }
-.card{
-  background-color: #28328c !important;
+.card {
   padding: 15px;
 }
 @media screen and (min-width: 1024px) {
   .covid {
     display: flex;
     justify-content: space-between;
- 
+    background-color: #28328c;
     padding: 50px;
   }
   .covid .card {
     width: 360px;
     height: 449px;
-    background-color: #28328c; 
-  } 
+    background-color: #28328c !important; 
+    border: none ;
+  }
   .covid-small {
     display: none;
   } 
