@@ -2,6 +2,7 @@ import "./App.css";
 import Banner from "./components/Banner";
 import SearchBar from "./components/SearchBar";
 import Card from "./components/Card";
+import CovidCard from "./components/CovidCard";
 function App() {
   return (
     <>
@@ -10,6 +11,9 @@ function App() {
         <Banner />
         <section className="section-card">
           <Card />
+        </section>
+        <section className="section-covid">
+          <CovidCard />
         </section>
       </div>
     </>

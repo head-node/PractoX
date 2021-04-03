@@ -8,7 +8,7 @@ import card2S from '../../assets/images/card2-small.webp';
 const Card = () => {
   return (
     <div className="cards">
-      <div class="card" >
+      <div className="card" >
         <picture>
             <source media="(max-width:1024px)" srcSet={card2S} />
             <source media="(min-width:1025px)" srcSet={card2} />
@@ -19,7 +19,7 @@ const Card = () => {
             />
           </picture>
       </div>
-      <div class="card" >
+      <div className="card" >
         <picture>
             <source media="(max-width:1024px)" srcSet={card1S} />
             <source media="(min-width:1025px)" srcSet={card1} />
