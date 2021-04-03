@@ -1,6 +1,10 @@
 .covid {
   display: none;
 }
+.card{
+  background-color: #28328c !important;
+  padding: 15px;
+}
 @media screen and (min-width: 1024px) {
   .covid {
     display: flex;
