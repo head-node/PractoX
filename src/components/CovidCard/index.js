@@ -13,7 +13,7 @@ const CovidCard = () => {
           <img
             src={covid1}
             alt="Unlimited Doctor Consultation"
-            style={{ backgroundColor: "#28328c",height:"449px"}}
+            style={{ backgroundColor: "#28328c"}}
           />
         </div>
         <div className="card">
@@ -21,14 +21,14 @@ const CovidCard = () => {
             src={covid2} 
             
             alt="Corona Symptoms? Don't Panic"
-            style={{ backgroundColor: "#28328c" , height:"449px"}}
+            style={{ backgroundColor: "#28328c"}}
           />
         </div>
         <div className="card">
           <img
             src={covid3}
             alt="Expert help on Coronavirus"
-            style={{ backgroundColor: "#28328c",height:"449px"}}
+            style={{ backgroundColor: "#28328c"}}
           />
         </div>
       </div>
