@@ -3,8 +3,14 @@ import "./index.css";
 const SearchBar = () => {
   return (
     <div className="searchBar">
-      <input type="search" placeholder="Search location"></input>
       <input
+       className="input"
+        type="search"
+        placeholder="Search location"
+      ></input> 
+      
+      <input
+       className="input"
         type="search"
         placeholder="Search Doctors, clinics, hospitals, etc"
       ></input>
