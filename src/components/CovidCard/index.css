@@ -1,8 +1,7 @@
 .covid {
   display: none;
 }
-.card{
-  background-color: #28328c !important;
+.card {
   padding: 15px;
 }
 @media screen and (min-width: 1024px) {
@@ -14,6 +13,7 @@
   .covid .card {
     width: 360px;
     height: 449px;
+    background-color: #28328c !important;
   }
   .covid-small {
     display: none;
