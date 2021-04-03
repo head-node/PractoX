@@ -10,8 +10,8 @@ const Banner = () => {
       <a href="google.com">
         <span>
           <picture>
-            <source media="(max-width:1024px)" srcset={bannerS} />
-            <source media="(min-width:1025px)" srcset={banner} />
+            <source media="(max-width:1024px)" srcSet={bannerS} />
+            <source media="(min-width:1025px)" srcSet={banner} />
             <img
             className="banner_img"
               src={bannerS}
