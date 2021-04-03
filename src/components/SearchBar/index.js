@@ -1,4 +1,5 @@
 import React from "react";
+import discount from '../../assets/images/discount.webp';
 import "./index.css";
 const SearchBar = () => {
   return (
@@ -14,7 +15,7 @@ const SearchBar = () => {
         type="search"
         placeholder="Search Doctors, clinics, hospitals, etc"
       ></input> 
-      <img src="https://www.practostatic.com/subscriptions/images/plus-tag.png" alt="ad"/>
+      <img src={discount}alt="ad"/>
     </div>
   );
 };

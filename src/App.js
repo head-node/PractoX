@@ -7,7 +7,7 @@ import Slider from "./components/Slider";
 function App() {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         <SearchBar />
         <Banner />
         <section className="section-card">
