@@ -1,11 +1,12 @@
-
-import './App.css';
-import SearchBar from "./components/Header/index"
+import "./App.css";
+import Banner from "./components/Banner";
 function App() {
-  return (  
- <>
-<SearchBar/>
- </>
+  return (
+    <>
+      <div className="container-fluid">
+        <Banner />
+      </div>
+    </>
   );
 }
 

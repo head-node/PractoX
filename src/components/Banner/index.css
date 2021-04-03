@@ -1,0 +1,10 @@
+.banner {
+  background-color: #28328c;
+  text-align: center;
+}
+
+.banner_img {
+    width: 100%;
+    cursor: pointer;
+    max-width: 1350px;
+}
