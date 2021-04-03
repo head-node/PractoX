@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import SearchBar from "./components/SearchBar";
 import Card from "./components/Card";
 import CovidCard from "./components/CovidCard";
+import Slider from "./components/Slider";
 function App() {
   return (
     <>
@@ -14,6 +15,10 @@ function App() {
         </section>
         <section className="section-covid">
           <CovidCard />
+        </section>
+        <hr/>
+        <section className="slide-quotes">
+          <Slider />
         </section>
       </div>
     </>
