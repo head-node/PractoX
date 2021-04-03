@@ -1,9 +1,12 @@
-
-import './App.css';
-
+import "./App.css";
+import Banner from "./components/Banner";
 function App() {
-  return (  
- <></>
+  return (
+    <>
+      <div className="container-fluid">
+        <Banner />
+      </div>
+    </>
   );
 }
 
