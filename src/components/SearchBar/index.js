@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 const SearchBar = () => {
   return (
-    <div className="searchBar">
+    <div className="searchBar"> 
       <input
        className="input"
         type="search"
@@ -13,7 +13,8 @@ const SearchBar = () => {
        className="input"
         type="search"
         placeholder="Search Doctors, clinics, hospitals, etc"
-      ></input>
+      ></input> 
+      <img src="https://www.practostatic.com/subscriptions/images/plus-tag.png" alt="ad"/>
     </div>
   );
 };
