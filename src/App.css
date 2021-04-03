@@ -1,6 +1,17 @@
-.section-card{
-    margin-top: 15px;
+.section-card {
+  margin-top: 15px;
 }
-.section-covid{
+.section-covid {
+  margin-top: 15px;
+}
+
+.slide-quotes {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .slide-quotes {
+    display: block;
     margin-top: 15px;
+  }
 }
