@@ -4,6 +4,7 @@ import SearchBar from "./components/SearchBar";
 import Card from "./components/Card";
 import CovidCard from "./components/CovidCard";
 import Slider from "./components/Slider";
+import Dropdown from "./components/DropDownAfterAd";
 function App() {
   return (
     <>
@@ -16,10 +17,11 @@ function App() {
         <section className="section-covid">
           <CovidCard />
         </section>
-        <hr/>
+        <hr />
         <section className="slide-quotes">
           <Slider />
         </section>
+        <Dropdown />
       </div>
     </>
   );

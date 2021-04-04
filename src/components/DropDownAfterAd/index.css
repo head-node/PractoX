@@ -1,0 +1,39 @@
+#accordion .card {
+ 
+  padding: 0px; 
+  margin: 5px 0px; 
+  background-color: #F0F0F5;
+} 
+#accordion button{
+    text-align: start; 
+    font-weight: bold; 
+    display: flex; 
+    justify-content:space-between; 
+    align-items: center;
+} 
+#collapseOne .card-body{
+    background-color: #F0F0F5; 
+    
+} 
+#flex-container{
+    display:none;
+}
+@media only screen and (min-width: 900px) {
+#accordion{
+    display: none;
+} 
+#flex-container{ 
+    background-color:#28328c;
+    display: flex;
+    justify-content:space-around; 
+    padding:50px 50px;
+} 
+#flex-container h2{
+    margin-bottom: 20px; 
+    font-size: 25px;
+}
+#flex-container p,h2{
+    color: white;
+} 
+
+}
